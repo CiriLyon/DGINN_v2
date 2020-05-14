@@ -1538,4 +1538,3 @@ server = function(input , output ,session){
   })#observe (le 1er 'observe' dans la fonction 'server')
 }#server
 
-#runApp(shinyApp(ui, server), launch.browser = T)
