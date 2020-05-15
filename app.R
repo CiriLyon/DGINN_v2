@@ -143,7 +143,7 @@ ui = fluidPage(
         
         hr(),
         tags$div(title="Before uploading your file, choose how many genes should appear in each pdf page",
-         numericInput("nbGene", "Genes by page", 10 , min = 1, max = 30)
+         numericInput("nbGene", "Genes by page", 10 , min = 1, max = 40)
         ),
         hr(),
         downloadButton('download_PDF', 'Download figures in .pdf'),
